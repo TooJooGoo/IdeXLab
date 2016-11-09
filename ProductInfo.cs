@@ -7,5 +7,5 @@ static class ProductInfo
 {
     public const string Version = "1.1.11.07";
     public const string Author = "TJG";
-    public const string Name = "IdexLab";
+    public const string Name = "IdeXLab";
 }

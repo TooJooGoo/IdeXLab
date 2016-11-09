@@ -12,11 +12,10 @@
     <AssemblyName>IdexLab</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <TargetFrameworkProfile />
-	<WarningLevel>4</WarningLevel>
-	<UseVSHostingProcess>false</UseVSHostingProcess>
-	<IntermediateOutputPath>$(TEMP)\obj_$(AssemblyName)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <IntermediateOutputPath>$(TEMP)\obj_$(AssemblyName)\</IntermediateOutputPath>
   </PropertyGroup>
-  
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|32 Bit' &#xD;&#xA;	OR '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
     <OutputPath>Debug 32 Bit</OutputPath>
@@ -25,7 +24,6 @@
     <Optimize>false</Optimize>
     <DefineConstants>DEBUG,_32BIT</DefineConstants>
   </PropertyGroup>
-  
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|64 Bit' &#xD;&#xA;	OR '$(Configuration)|$(Platform)' == 'Debug|x64' ">
     <PlatformTarget>x64</PlatformTarget>
     <OutputPath>Debug 64 Bit</OutputPath>
@@ -34,25 +32,22 @@
     <Optimize>false</Optimize>
     <DefineConstants>DEBUG,_64BIT</DefineConstants>
   </PropertyGroup>
-  
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|32 Bit' &#xD;&#xA;	OR '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <PlatformTarget>x86</PlatformTarget>
-	<OutputPath>Release 32 Bit</OutputPath>
-	<DebugSymbols>false</DebugSymbols>
+    <OutputPath>Release 32 Bit</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
     <DebugType>none</DebugType>
     <Optimize>true</Optimize>
     <DefineConstants>RELEASE,_32BIT</DefineConstants>
   </PropertyGroup>
-  
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|64 Bit' &#xD;&#xA;	OR '$(Configuration)|$(Platform)' == 'Release|x64' ">
     <PlatformTarget>x64</PlatformTarget>
-	<OutputPath>Release 64 Bit</OutputPath>
-	<DebugSymbols>false</DebugSymbols>
+    <OutputPath>Release 64 Bit</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
     <DebugType>none</DebugType>
     <Optimize>true</Optimize>
     <DefineConstants>RELEASE,_64BIT</DefineConstants>
-  </PropertyGroup>  
-  
+  </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>Resources\idex.ico</ApplicationIcon>
   </PropertyGroup>
