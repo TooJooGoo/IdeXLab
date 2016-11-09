@@ -13,8 +13,11 @@
 # Build results
 [Dd]ebug/
 [Dd]ebug 32 Bit/
+[Dd]ebug 64 Bit/
 [Dd]ebugPublic/
 [Rr]elease/
+[Rr]elease 32 Bit/
+[Rr]elease 64 Bit/
 [Rr]eleases/
 [Xx]64/
 [Xx]86/
