@@ -77,7 +77,7 @@
       <DependentUpon>MainWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs" />
-    <Compile Include="X\AssemblyInfo.cs" />
+    <Compile Include="AssemblyInfo.cs" />
     <Compile Include="X\XCache.cs" />
     <Compile Include="X\XMB.cs" />
     <Compile Include="X\XString.cs" />

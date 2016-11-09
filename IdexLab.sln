@@ -34,7 +34,4 @@ Global
 		{CEAA8CBC-9A5B-412B-960A-F93526992DA3}.Release|x86.ActiveCfg = Release|x86
 		{CEAA8CBC-9A5B-412B-960A-F93526992DA3}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 EndGlobal
